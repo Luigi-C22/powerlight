@@ -1,9 +1,27 @@
 body{
-background-image: url(./assets/background_img.png);
+/* background-image: url(./assets/background_img.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+padding-top: 490px; /* altezza navbar */ */
 
+}
+
+.hero {
+  height: 100vh; /* occupa il 100% dello schermo */
+  padding: 3%;
+  background-image: url(./assets/background_img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-link{
+  color: white !important;
 }
 
 .logo-nav {
