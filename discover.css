@@ -1,0 +1,16 @@
+body{
+    background-image: url(./assets/bckg_clean.png);
+
+}
+
+.title{
+    color: blanchedalmond;
+  margin-bottom: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+div.img{
+    border-radius: 5px;
+    width: 5rem;
+}
