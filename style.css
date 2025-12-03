@@ -49,8 +49,4 @@ background: #1C6EA4; }
 .btn-cta:active {
 background: #144E75; }
 
-.div-carousel{
-  border-radius: 10px;
-  display: inline-block;
-  width: 30% vh;
-}
+
