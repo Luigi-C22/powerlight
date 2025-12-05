@@ -7,8 +7,9 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   color: white;
 }
 .title{
@@ -49,4 +50,15 @@ background: #1C6EA4; }
 .btn-cta:active {
 background: #144E75; }
 
+.features {
+  display: flex;
+  gap: 15px; /* spazio tra i box */
+  margin-top: 40px;
+}
+
+.features div {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
 
