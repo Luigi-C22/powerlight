@@ -1,6 +1,7 @@
 
 .hero {
   height: 100vh; /* occupa il 100% dello schermo */
+  margin-top: 8%;
   padding: 3%;
   background-image: url(./assets/background_img.png);
   background-size: cover;
@@ -54,10 +55,39 @@ background: #144E75; }
   display: flex;
   gap: 15px; /* spazio tra i box */
   margin-top: 40px;
-}
+  }
 
 .features div {
   background: rgba(255, 255, 255, 0.1);
   padding: 15px 25px;
   border-radius: 10px;
+}
+.modal-content {
+  background-color: #b3b3da;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #444;
+}
+
+.modal-footer {
+  border-top: 1px solid #444;
+}
+.modal-dialog {
+  max-width: 700px;
+}
+.modal.fade .modal-dialog {
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.modal.show .modal-dialog {
+  transform: scale(1);
+}
+.img-modal{
+  border-radius: 8px;
 }
