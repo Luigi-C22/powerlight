@@ -54,7 +54,7 @@ background: #144E75; }
 .features {
   display: flex;
   gap: 15px; /* spazio tra i box */
-  margin-top: 40px;
+  margin-top: 8px;
   }
 
 .features div {
